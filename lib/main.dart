@@ -30,7 +30,7 @@ class WeatherScreen extends StatefulWidget {
 class _WeatherScreenState extends State<WeatherScreen> {
   final TextEditingController _cityController = TextEditingController();
   String _cityName = "City Name";
-  String _temperature = "Temperature";
+  String _temperature = "Temperatures";
   String _weatherCondition = "Weather Condition";
   List<Map<String, String>> _weeklyForecast = [];
 
@@ -146,3 +146,4 @@ class _WeatherScreenState extends State<WeatherScreen> {
     );
   }
 }
+//Completed 
